@@ -5,6 +5,7 @@ public class MyMain
     public static void main(String[] args)
     {
         MyInterface.staticMethod();
+        System.out.println(MyInterface.CONST);
         System.out.println(MyClass.CONST);
         MyClass monObjet = new MyClass();
         monObjet.method();
